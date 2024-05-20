@@ -26,5 +26,10 @@ namespace ArbolBinario
             Informacion = informacion;
             RamaDerecha = null;
         }
+
+        public static implicit operator NodoArbol(NodoABB v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
